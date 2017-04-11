@@ -13,6 +13,7 @@
 		F98BBA8A1E9CA26000644365 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F98BBA881E9CA26000644365 /* Main.storyboard */; };
 		F98BBA8C1E9CA26000644365 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F98BBA8B1E9CA26000644365 /* Assets.xcassets */; };
 		F98BBA8F1E9CA26000644365 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F98BBA8D1E9CA26000644365 /* LaunchScreen.storyboard */; };
+		F98BBA971E9CA31300644365 /* 00.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F98BBA961E9CA31300644365 /* 00.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F98BBA8B1E9CA26000644365 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F98BBA8E1E9CA26000644365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F98BBA901E9CA26000644365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F98BBA961E9CA31300644365 /* 00.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 00.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +60,12 @@
 		F98BBA7E1E9CA26000644365 /* UIMotionEffect */ = {
 			isa = PBXGroup;
 			children = (
+				F98BBA961E9CA31300644365 /* 00.jpg */,
 				F98BBA821E9CA26000644365 /* AppDelegate.h */,
 				F98BBA831E9CA26000644365 /* AppDelegate.m */,
 				F98BBA851E9CA26000644365 /* ViewController.h */,
 				F98BBA861E9CA26000644365 /* ViewController.m */,
 				F98BBA881E9CA26000644365 /* Main.storyboard */,
-				F98BBA8B1E9CA26000644365 /* Assets.xcassets */,
-				F98BBA8D1E9CA26000644365 /* LaunchScreen.storyboard */,
-				F98BBA901E9CA26000644365 /* Info.plist */,
 				F98BBA7F1E9CA26000644365 /* Supporting Files */,
 			);
 			path = UIMotionEffect;
@@ -74,6 +74,9 @@
 		F98BBA7F1E9CA26000644365 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F98BBA8B1E9CA26000644365 /* Assets.xcassets */,
+				F98BBA8D1E9CA26000644365 /* LaunchScreen.storyboard */,
+				F98BBA901E9CA26000644365 /* Info.plist */,
 				F98BBA801E9CA26000644365 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -141,6 +144,7 @@
 				F98BBA8F1E9CA26000644365 /* LaunchScreen.storyboard in Resources */,
 				F98BBA8C1E9CA26000644365 /* Assets.xcassets in Resources */,
 				F98BBA8A1E9CA26000644365 /* Main.storyboard in Resources */,
+				F98BBA971E9CA31300644365 /* 00.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
